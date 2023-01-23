@@ -40,7 +40,7 @@ async function polyfillWrapper() {
 export default foo();
 /*
 Error: failed to request
-    at ClientRequest.<anonymous> (file:///Users/jridgewell/tmp/stack-trace-async-event/1-async-await-broken.js:8:14)
+    at ClientRequest.<anonymous> (file:///Users/jridgewell/tmp/stack-trace-async-event/1-promises-broken.js:8:14)
     at ClientRequest.emit (node:events:513:28)
     at Socket.socketErrorListener (node:_http_client:496:9)
     at Socket.emit (node:events:513:28)

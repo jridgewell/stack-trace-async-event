@@ -47,9 +47,9 @@ async function polyfillWrapper() {
 export default foo()
 /*
 Error: failed to request
-    at baz (file:///Users/jridgewell/tmp/stack-trace-async-event/7-async-await-capture-source.js:26:10)
-    at bar (file:///Users/jridgewell/tmp/stack-trace-async-event/7-async-await-capture-source.js:22:10)
-    at foo (file:///Users/jridgewell/tmp/stack-trace-async-event/7-async-await-capture-source.js:18:10)
-    at file:///Users/jridgewell/tmp/stack-trace-async-event/7-async-await-capture-source.js:47:16
+    at baz (file:///Users/jridgewell/tmp/stack-trace-async-event/7-promises-capture-source.js:26:10)
+    at bar (file:///Users/jridgewell/tmp/stack-trace-async-event/7-promises-capture-source.js:22:10)
+    at foo (file:///Users/jridgewell/tmp/stack-trace-async-event/7-promises-capture-source.js:18:10)
+    at file:///Users/jridgewell/tmp/stack-trace-async-event/7-promises-capture-source.js:47:16
     at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
 */
